@@ -1,20 +1,17 @@
-# micro_flex_bison
-Ejemplo de Analizador lexico + Parser del lenguaje Micro - UTN SSL
+# Micro parser - UTN
+Ejemplo de implementación de Analizador lexico + Parser del lenguaje Micro - UTN SSL
 
-Requisitos
-Compilador de C (gcc/clang)
+Se representan las 2 primeras fases en la compilación de un programa:
 
-Instalar Flex:
+1. ANALISIS LEXICO (Flex)
+2. ANALISIS SINTACTICO (Bison)
 
-Windows:
-Descargar de https://gnuwin32.sourceforge.net/packages/flex.htm
+Requisitos:
+ - Compilador de C (gcc/clang)
+ - [Flex](https://github.com/westes/flex)
+ - Bison 
+ - Make
 
-Linux
-sudo apt-get update
-sudo apt-get install flex
+Extensiones útiles para VS Code
 
-
-
-extensiones útiles para VS Code
-Yash(utilizada para este proyecto): 
-Lex: https://marketplace.visualstudio.com/items?itemName=luniclynx.lex
+- [Yash](https://marketplace.visualstudio.com/items?itemName=daohong-emilio.yash)
